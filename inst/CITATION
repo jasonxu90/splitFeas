@@ -1,0 +1,13 @@
+year <- 2017
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype="Manual",
+  title="{splitFeas}: Majorize-minimize algorithms for solving split feasibility problems",
+  author=c(person("Jason","Xu"), person("Eric", "Chi")),
+  year= year,
+  note = note)
+
+bibentry(bibtype="Manual",
+  title="An MM Algorithm for Split Feasibility Problems",
+  author=c(person("Jason","Xu"), person("Eric", "Chi"), person("Meng","Yang"), person("Kenneth","Lange")),
+  year= year) 

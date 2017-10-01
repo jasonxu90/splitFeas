@@ -1,0 +1,33 @@
+Package: splitFeas
+Title: Multiset Split Feasibility
+Version: 0.1
+Maintainer: Jason Xu <jqxu@ucla.edu}, Eric C. Chi <eric.c.chi@gmail.com>
+Author: Jason Xu, Eric C. Chi
+Description: An MM algorithm for the multi-set split feasibility problem
+Depends:
+    R (>= 3.0.1),
+    compiler,
+    corpcor,
+    matrixStats
+License: CC BY-NC-SA 3.0
+Suggests:
+    ggplot2
+Collate:
+    'split_feasibility-package.r'
+    'project_ball.r'
+    'project_halfspace.r'
+    'project_cube.r'
+    'project_square.r'
+    'ddg.r'
+    'dg.r'
+    'backtrack.r'
+    'mmqn_step.r'
+    'proximity.r'
+    'nmsfp_mm.r'
+    'nmsfp_sap_one_step.r'
+    'nmsfp_sap.r'
+    'softmax.r'
+    'qnamm.r'
+    'wood_inv_solve.r'
+    'nmsfp_mmqn.r'
+RoxygenNote: 5.0.1
